@@ -22,7 +22,8 @@ const skills = {
         "REST APIs",
         "PostgreSQL",
         "Version Control, Git, GitHub,",
-        "TypeScript"
+        "TypeScript",
+        "Firebase Authentication"
     ],
 };
 
