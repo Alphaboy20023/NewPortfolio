@@ -52,7 +52,7 @@ const Navbar = () => {
 
         {/* Mobile Offcanvas */}
         <div
-          className={`fixed top-0 right-0 h-full w-[45vh] bg-[rgba(74,91,248,0.59)] backdrop-blur-[5px]  shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+          className={`fixed top-0 right-0 h-full w-[96%] bg-[rgba(74,91,248,0.59)] backdrop-blur-[5px]  shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           } md:hidden`}
         >
