@@ -52,14 +52,14 @@ const Navbar = () => {
 
         {/* Mobile Offcanvas */}
         <div
-          className={`fixed top-0 right-0 h-full w-[44vh] bg-[rgba(74,91,248,0.59)] backdrop-blur-[5px]  shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+          className={`fixed top-0 right-0 h-full w-[45vh] bg-[rgba(74,91,248,0.59)] backdrop-blur-[5px]  shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           } md:hidden`}
         >
           <div className="flex justify-end p-4">
             <button
               onClick={closeNavbar}
-              className="text-gray-700 text-5xl font-semibold focus:outline-none"
+              className="text-white text-5xl font-semibold focus:outline-none"
             >
               &times;
             </button>

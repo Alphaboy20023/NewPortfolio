@@ -33,7 +33,7 @@ export const projects = [
     role: "Full-Stack Web Developer",
     description:
       "Responsive E-commerce application that uses React, Redux for Front-End and Django RestFrameWork for user authentication.",
-    modalDescription:"",
+    modalDescription:" Kleistic, a full-featured and responsive e-commerce application using React and Redux on the frontend, with Django Rest Framework powering the backend.\n\n The platform includes dynamic client-side routing via react-router-dom, supporting seamless navigation across multiple pages like product listings, product detail, cart, wishlist, and user authentication (login/register). \n\n Integrated Firebase for real-time notifications, deployment, and scalable asset hosting. The backend is equipped with robust JWT-based authentication, user account management, and secure data APIs.",
     tech: ["React", "Redux", "Tailwind CSS", "python", "Django RestFrameWork", "Firebase Auth", "Postgres DB"],
     image: "./Img/Kleistic.png",
     liveLink: "https://klestic.netlify.app/",

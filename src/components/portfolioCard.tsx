@@ -8,7 +8,7 @@ type Props = {
     role: string;
     year: string;
     description: string;
-    modalDescription:string;
+    modalDescription: string;
     tech: string[];
     image: string;
     liveLink: string;
@@ -84,7 +84,8 @@ const PortfolioCard = ({ project }: Props) => {
                 className="rounded-lg"
               />
               <div className="flex flex-col justify-between">
-                <p className="text-gray-700 mb-4 text-md">{project.modalDescription}</p>
+                <p className="text-gray-700 mb-4 text-sm font-semibold">{project.modalDescription.split('\n').map((line, i) => (
+                  <span key={i}>{line}<br /></span> ))}</p>
                 <div className="flex flex-wrap gap-2 mb-4 text-[#6070FF]">
                   {project.tech.map((tech, i) => (
                     <span

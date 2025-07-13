@@ -6,7 +6,7 @@ const Portfolio = () => {
     <>
       <Navbar />
       <div
-        className=" bg-cover  bg-center bg-white flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10 [border-end-start-radius:150px] [box-shadow:0_0_15px_rgba(0,0,0,0.3)]"
+        className=" bg-cover bg-center bg-white flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10 [border-end-start-radius:150px] [box-shadow:0_0_15px_rgba(0,0,0,0.3)]"
         style={{ backgroundImage: "url('./Img/Header bg@2x.png')" }}
       >
         
@@ -77,7 +77,7 @@ const Portfolio = () => {
         </div>
 
         {/* Image */}
-        <div className="flex-1 pt-8 flex justify-center items-center max-w-md sm:max-w-sm lg:max-w-lg">
+        <div className="flex-1 pt-[70px] lg:pt-12 flex justify-center items-center max-w-md sm:max-w-sm lg:max-w-lg">
           <img
             src="/img/me.jpg"
             alt="my_picture"
