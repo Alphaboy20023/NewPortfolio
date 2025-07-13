@@ -17,7 +17,7 @@ const ContactMe = () => {
         setSuccess(null);
 
         try {
-            const res = await fetch("http://localhost:5000/api/send-email", {
+            const res = await fetch("https://email-sender-j0c5.onrender.com/api/send-email", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(form),
@@ -27,11 +27,15 @@ const ContactMe = () => {
             if (res.ok) {
                 setSuccess("Message sent successfully!");
                 setForm({ name: "", email: "", message: "" });
+                
+                 setTimeout(() => setSuccess(null), 5000);
             } else {
                 setErrorMessage(data?.error || "Something went wrong");
+                 setTimeout(() => setSuccess(null), 5000);
             }
         } catch (err) {
             setErrorMessage("Failed to send message. Try again later.",);
+            setTimeout(() => setSuccess(null), 5000);
             console.log(err)
         } finally {
             setLoading(false);
