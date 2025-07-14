@@ -6,8 +6,9 @@ const Portfolio = () => {
   return (
     <>
       <Navbar />
+      
       <div
-        className=" bg-cover bg-center bg-white flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10 [border-end-start-radius:110px] [box-shadow:0_0_15px_rgba(0,0,0,0.3)]"
+        className=" bg-cover bg-center bg-white flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10"
         style={{ backgroundImage: "url('./Img/Header bg@2x.png')" }}
       >
 
@@ -92,9 +93,9 @@ const Portfolio = () => {
           />
         </div>
       </div>
-
-
       <Accordion />
+
+
     </>
   );
 };
