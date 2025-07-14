@@ -19,7 +19,7 @@ const MyProjects = () => {
   return (
     <section className="flex flex-col gap-8 p-3 md:p-10">
       <Navbar />
-      <p className="lg:pt-[40px] pt-[78px] text-gray-600 text-3xl font-semibold">
+      <p className="lg:pt-[40px] pt-[78px]  text-3xl font-semibold">
         My Projects
       </p>
       {displayedProjects.map((project) => (
