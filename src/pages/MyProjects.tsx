@@ -13,7 +13,7 @@ const MyProjects = () => {
     return () => window.removeEventListener("resize", checkScreen);
   }, []);
 
-  const desktopOrder = [projects[1], projects[0], projects[2], projects[3]];
+  const desktopOrder = [projects[1], projects[0], projects[3], projects[2]];
   const displayedProjects = isDesktop ? desktopOrder : projects;
 
   return (

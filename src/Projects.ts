@@ -52,19 +52,19 @@ export const projects = [
     liveLink: "",
     sourceLink: "https://github.com/Alphaboy20023/School_app",
   },
-  {
-    id: "5",
-    title: "School Inventory Management",
-    year: "2025",
-    role: "Backend developer ",
-    description:
-      "Enhancing school efficiency and user experience with a centralized backend. Automates student admissions, generates digital IDs, manages online exams, and secures fee payments with instant receipt generation.",
-    modalDescription:"This project aims to streamline administrative tasks by providing comprehensive functionalities for student admission management, digital ID Card generation, efficient online examination handling, and a secure school fees payment system with automated receipt generation. The core objective is to enhance organizational efficiency and improve user experience for students, teachers/lecturers, and administrators.",
-    tech: ["Python", "Django RestFrameWork", "Django RestAPI", "PostgreSQL DB"],
-    image: "./Img/school_inv.jpg",
-    liveLink: "https://victorboyapi.netlify.app/products",
-    sourceLink: "https://github.com/Alphaboy20023/School_app",
-  },
+  // {
+  //   id: "5",
+  //   title: "School Inventory Management",
+  //   year: "2025",
+  //   role: "Backend developer ",
+  //   description:
+  //     "Enhancing school efficiency and user experience with a centralized backend. Automates student admissions, generates digital IDs, manages online exams, and secures fee payments with instant receipt generation.",
+  //   modalDescription:"This project aims to streamline administrative tasks by providing comprehensive functionalities for student admission management, digital ID Card generation, efficient online examination handling, and a secure school fees payment system with automated receipt generation. The core objective is to enhance organizational efficiency and improve user experience for students, teachers/lecturers, and administrators.",
+  //   tech: ["Python", "Django RestFrameWork", "Django RestAPI", "PostgreSQL DB"],
+  //   image: "./Img/school_inv.jpg",
+  //   liveLink: "https://victorboyapi.netlify.app/products",
+  //   sourceLink: "https://github.com/Alphaboy20023/School_app",
+  // },
   
  
 ];
