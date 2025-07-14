@@ -1,5 +1,6 @@
 import Navbar from "../components/Nav";
 import Accordion from "../components/accordion";
+import { TypeAnimation } from "react-type-animation";
 
 const Portfolio = () => {
   return (
@@ -9,14 +10,20 @@ const Portfolio = () => {
         className=" bg-cover bg-center bg-white flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10 [border-end-start-radius:150px] [box-shadow:0_0_15px_rgba(0,0,0,0.3)]"
         style={{ backgroundImage: "url('./Img/Header bg@2x.png')" }}
       >
-        
+
         <div className="flex-1 flex flex-col justify-center space-y-6 max-w-2xl text-center lg:text-left">
-          <p className="font-bold text-2xl sm:text-3xl lg:text-4xl">
-            I Am Akinola Victor
-          </p>
-          <p className="font-bold text-2xl sm:text-3xl lg:text-4xl">
-            I Am Glad to Meet You
-          </p>
+          <TypeAnimation
+            sequence={[
+              'I Am Akinola Victor',
+              2000,
+              'I Am Glad to Meet You',
+              2000,
+            ]}
+            wrapper="p"
+            speed={50}
+            repeat={Infinity}
+            className="font-semibold text-2xl logo sm:text-3xl lg:text-4xl"
+          />
           <p className="text-[#344563] text-base sm:text-lg font-medium leading-relaxed">
             I'm a passionate Software Developer with a knack for crafting
             innovative, user-friendly applications and solving all the problems
@@ -79,13 +86,13 @@ const Portfolio = () => {
         {/* Image */}
         <div className="flex-1 pt-[70px] lg:pt-12 flex justify-center items-center max-w-md sm:max-w-sm lg:max-w-lg">
           <img
-            src="/img/me.jpg"
+            src="/img/portfolio_image.png"
             alt="my_picture"
             className="rounded-xl w-full h-auto shadow-md"
           />
         </div>
       </div>
-      
+
 
       <Accordion />
     </>

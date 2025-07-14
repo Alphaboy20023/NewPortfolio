@@ -34,7 +34,7 @@ const Accordion = () => {
         setOpenIndex((prev) => (prev === index ? null : index));
     };
     return (
-        <div className="shadow-[0_-4px_10px_rgba(0,0,0,0.15)] mt-12 [border-start-end-radius:120px] bg-white h-full">
+        <div className="shadow-[0_-4px_10px_rgba(0,0,0,0.15)] mt-12 [border-start-end-radius:120px] [border-start-start-radius:120px] bg-white h-full">
             <div className="w-[98%] mx-auto my-6 rounded-lg py-12 px-12">
                 {/* Languages */}
                 <div className="border border-gray-100 rounded-lg mb-4 overflow-hidden">
@@ -103,7 +103,7 @@ const Accordion = () => {
                     >
                         Other Skills
                         <span className="transition-transform duration-300">
-                            {openIndex === 1 ? (
+                            {openIndex === 2 ? (
                                 // @ts-ignore
                                 <FaChevronUp className="w-5 h-5" />
                             ) : (
