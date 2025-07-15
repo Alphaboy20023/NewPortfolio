@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tektur:wght@400..900&display=swap');
 
 body {
   margin: 0;
@@ -10,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
+  /* background-color: rgb(235, 231, 231); */
 }
 
 code {
@@ -19,4 +21,6 @@ code {
 
 .logo {
   color: #0f23d8b9;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
 }

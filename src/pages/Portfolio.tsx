@@ -8,7 +8,7 @@ const Portfolio = () => {
       <Navbar />
       
       <div
-        className=" bg-cover bg-center bg-white flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10"
+        className=" bg-cover bg-center bg-transparent flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10"
         style={{ backgroundImage: "url('./Img/Header bg@2x.png')" }}
       >
 

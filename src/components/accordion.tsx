@@ -34,7 +34,7 @@ const Accordion = () => {
         setOpenIndex((prev) => (prev === index ? null : index));
     };
     return (
-        <div className=" bg-white h-full">
+        <div className=" bg-transparent h-full">
             <div className="w-[98%] mx-auto my-6 rounded-lg py-12 px-12">
                 {/* Languages */}
                 <div className="border border-gray-100 rounded-lg mb-4 overflow-hidden">

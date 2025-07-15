@@ -8,7 +8,7 @@ const Navbar = () => {
   const toggleNavbar = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow z-50 py-2">
+    <nav className="fixed top-0 left-0 w-full bg-gray-100 shadow-lg shadow z-50 py-2">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <p className="text-lg logo font-bold ">I AM AKINOLAVICTOR</p>
 
