@@ -15,6 +15,7 @@ const skills = {
         { label: "Tailwind", img: "./Img/tailwind.png" },
         { label: "React", img: "./Img/react_main.png" },
         { label: "Django REST", img: "./Img/django_rest.png" },
+        { label: "Next.js", img: "./Img/nextjs.webp" },
     ],
     otherSkills: [
         "Frontend Web Developer",
@@ -23,7 +24,8 @@ const skills = {
         "PostgreSQL",
         "Version Control, Git, GitHub,",
         "TypeScript",
-        "Firebase Authentication"
+        "Firebase Authentication",
+        "MongoDb"
     ],
 };
 
