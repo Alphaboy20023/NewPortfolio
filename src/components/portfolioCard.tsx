@@ -26,38 +26,44 @@ const PortfolioCard = ({ project }: Props) => {
   return (
     <>
       {/* Main Card */}
-      <div className="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col md:flex-row justify-between p-4">
+      <div className="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col md:flex-row justify-between p-4 h-full">
         {/* Mobile/Desktop shared image */}
         <div className="w-full md:w-1/2">
           <img src={project.image} alt={project.title} className="w-full h-auto p-2 rounded-lg" />
         </div>
 
-        {/* Info */}
-        <div className="flex-1 p-4">
-          <h2 className="text-2xl font-bold text-blue-700">{project.title}</h2>
-          <p className="text-sm mt-1 text-gray-500">
-            {project.role} <span className="mx-1">•</span> {project.year}
-          </p>
-          <p className="text-gray-600 mt-2 text-2xl">{project.description}</p>
-
-          {/* Tech */}
-          <div className="flex flex-wrap gap-2 mt-3  text-[#6070FF] ">
-            {project.tech.map((tech, i) => (
-              <span
-                key={i}
-                className="bg-gray-100 text-xl px-3 py-1 rounded-md bg-[#EBEBFF] font-semibold"
-              >
-                {tech}
-              </span>
-            ))}
+        {/* Info - Using flex-col with flex-1 and justify-between */}
+        <div className="flex-1 p-4 flex flex-col gap-6">
+          {/* Top content */}
+          <div>
+            <h2 className="text-2xl font-bold text-blue-700">{project.title}</h2>
+            <p className="text-sm mt-1 text-gray-500">
+              {project.role} <span className="mx-1">•</span> {project.year}
+            </p>
+            <p className="text-gray-600 mt-4 text-[18px]">{project.description}</p>
           </div>
+          
+          {/* Bottom content - only skills and button pushed to bottom */}
+          <div className="mt-auto">
+            {/* Tech */}
+            <div className="flex flex-wrap gap-2 mb-4 text-[#6070FF]">
+              {project.tech.map((tech, i) => (
+                <span
+                  key={i}
+                  className="bg-gray-100 text-xl px-3 py-1 rounded-md bg-[#EBEBFF] font-semibold"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
 
-          <button
-            onClick={() => setOpen(true)}
-            className="mt-4 bg-white border border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-md"
-          >
-            See Project
-          </button>
+            <button
+              onClick={() => setOpen(true)}
+              className="bg-white border border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-md"
+            >
+              See Project
+            </button>
+          </div>
         </div>
       </div>
 
@@ -85,7 +91,7 @@ const PortfolioCard = ({ project }: Props) => {
               />
               <div className="flex flex-col justify-between">
                 <p className="text-gray-700 mb-4 text-sm font-semibold">{project.modalDescription.split('\n').map((line, i) => (
-                  <span key={i}>{line}<br /></span> ))}</p>
+                  <span key={i}>{line}<br /></span>))}</p>
                 <div className="flex flex-wrap gap-2 mb-4 text-[#6070FF]">
                   {project.tech.map((tech, i) => (
                     <span
