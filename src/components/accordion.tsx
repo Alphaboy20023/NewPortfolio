@@ -36,12 +36,12 @@ const Accordion = () => {
         setOpenIndex((prev) => (prev === index ? null : index));
     };
     return (
-        <div className=" bg-transparent h-full">
+        <div className="h-full">
             <div className="w-[98%] mx-auto my-6 rounded-lg py-12 px-12">
                 {/* Languages */}
                 <div className="border border-gray-100 rounded-lg mb-4 overflow-hidden">
                     <button
-                        className="w-full text-left px-6 py-4 bg-white font-semibold flex justify-between items-center  text-black"
+                        className="w-full text-left px-6 py-4 font-semibold flex justify-between items-center  text-black"
                         onClick={() => toggle(0)}
                     >
                         Languages
@@ -57,7 +57,7 @@ const Accordion = () => {
                         </span>
                     </button>
                     {openIndex === 0 && (
-                        <div className="bg-white px-6 py-4 grid grid-cols-2 sm:grid-cols-4 gap-4 border border-gray-300 rounded-md">
+                        <div className=" px-6 py-4 grid grid-cols-2 sm:grid-cols-4 gap-4 border border-gray-300 rounded-md">
                             {skills.languages.map((lang) => (
                                 <div key={lang.label} className="flex flex-col items-center">
                                     <img src={lang.img} alt={lang.label} className="h-12 w-12" />
@@ -86,7 +86,7 @@ const Accordion = () => {
                         </span>
                     </button>
                     {openIndex === 1 && (
-                        <div className="bg-white px-6 py-4 grid grid-cols-2 sm:grid-cols-4 gap-4 border border-gray-300  rounded-md">
+                        <div className=" px-6 py-4 grid grid-cols-2 sm:grid-cols-4 gap-4 border border-gray-300  rounded-md">
                             {skills.frameworks.map((fw) => (
                                 <div key={fw.label} className="flex flex-col items-center">
                                     <img src={fw.img} alt={fw.label} className="h-16" />

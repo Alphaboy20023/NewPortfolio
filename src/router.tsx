@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import MyProjects from "./pages/MyProjects";
+import Portfolio from "./pages/Home";
+
 
 
 const MyAppRoutes = () => {
@@ -9,8 +8,6 @@ const MyAppRoutes = () => {
         <Router>
             <Routes>
                 <Route path="/" element={ <Portfolio />} />
-                <Route path="/contact" element={ < Contact/>} />
-                <Route path="/projects" element={ < MyProjects/>} />
             </Routes>
         </Router>
     )

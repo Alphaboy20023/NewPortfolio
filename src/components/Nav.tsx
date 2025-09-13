@@ -5,20 +5,54 @@ import "../Navbar.css";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState<string>("home")
 
   const navLinks = [
-    { label: "Home", path: "/" },
-    { label: "About", path: "/about" },
-    { label: "Projects", path: "/projects" },
-    { label: "Skills", path: "/skills" },
-    { label: "Contact Me", path: "/contact" },
+    { label: "Home", target: "home" },
+    { label: "About", target: "about" },
+    { label: "Projects", target: "projects" },
+    { label: "Skills", target: "skills" },
+    { label: "Contact Me", target: "contact" },
   ];
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
+    const handleScrollY = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScrollY);
+    return () => window.removeEventListener("scroll", handleScrollY);
+  }, []);
+
+  const handleScrollNavigate = (id: string) => {
+    // const (el) = document.getElementById(id);
+    const el: HTMLElement | null = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      setActiveSection(id);
+      setIsMenuOpen(false);
+    }
+  }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["home", "about", "projects", "skills", "contact"];
+      let current = "home";
+
+      sections.forEach((id) => {
+        const section = document.getElementById(id);
+        if (section) {
+          const top = section.offsetTop - 100; // adjust for navbar height
+          if (window.scrollY >= top) {
+            current = id;
+          }
+        }
+      });
+
+      setActiveSection(current);
+    };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
 
   return (
     <nav
@@ -26,11 +60,11 @@ const Navbar = () => {
       style={
         scrolled
           ? {
-              backgroundImage: "url('/Img/Rectangle 12.png')",
-              backgroundPosition: "top left",
-              backgroundSize: "cover",
-              backdropFilter: "blur(10px) brightness(1.2)",
-            }
+            backgroundImage: "url('/Img/Rectangle 12.png')",
+            backgroundPosition: "top left",
+            backgroundSize: "cover",
+            backdropFilter: "blur(10px) brightness(1.2)",
+          }
           : { background: "transparent" }
       }
     >
@@ -48,11 +82,15 @@ const Navbar = () => {
         <div className="logo">I AM AKINOLAVICTOR</div>
       </div>
 
+      <div className="logo hidden lg:block">I AM AKINOLAVICTOR</div>
+
       {/* Desktop Nav */}
       <ul className="navbar-links">
         {navLinks.map((link, i) => (
           <li key={i}>
-            <Link to={link.path}>{link.label}</Link>
+            <button onClick={() => handleScrollNavigate(link.target)} className={`nav-btn ${activeSection === link.target ? "active" : ""}`}>
+              {link.label}
+            </button>
           </li>
         ))}
       </ul>
@@ -63,9 +101,9 @@ const Navbar = () => {
         <ul>
           {navLinks.map((link, i) => (
             <li key={i}>
-              <Link to={link.path} onClick={() => setIsMenuOpen(false)}>
+              <button onClick={() => handleScrollNavigate(link.target)} className={`nav-btn ${activeSection === link.target ? "active" : ""}`}>
                 {link.label}
-              </Link>
+              </button>
             </li>
           ))}
         </ul>

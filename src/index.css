@@ -11,7 +11,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background-color: #d8d8dc;
+  background-image: url('../public/Img/Rectangle\ 12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 code {
@@ -19,8 +22,26 @@ code {
     monospace;
 }
 
-.logo {
+.home-logo {
   color: #0f23d8b9;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: #1f2937;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease ;
+}
+.nav-btn:hover {
+  color: #2563eb;
+}
+
+.nav-btn.active {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
 }
