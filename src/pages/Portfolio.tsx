@@ -9,7 +9,7 @@ const Portfolio = () => {
       
       <div
         className=" bg-cover bg-center bg-transparent flex flex-col-reverse lg:flex-row items-center justify-center gap-6 h-auto min-h-screen p-6 md:p-10"
-        style={{ backgroundImage: "url('./Img/Header bg@2x.png')" }}
+        style={{ backgroundImage: "url('./Img/Rectangle 12.png')" }}
       >
 
         <div className="flex-1 flex flex-col justify-center space-y-6 max-w-2xl text-center lg:text-left">
@@ -85,13 +85,13 @@ const Portfolio = () => {
         </div>
 
         {/* Image */}
-        <div className="flex-1 pt-[70px] lg:pt-12 flex justify-center items-center max-w-md sm:max-w-sm lg:max-w-lg">
+        {/* <div className="flex-1 pt-[70px] lg:pt-12 flex justify-center items-center max-w-md sm:max-w-sm lg:max-w-lg">
           <img
             src="/img/portfolio_image.png"
             alt="my_picture"
             className="rounded-xl w-full h-auto shadow-lg"
           />
-        </div>
+        </div> */}
       </div>
       <Accordion />
 

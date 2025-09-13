@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/contactMe";
+import Contact from "./pages/Contact";
 import MyProjects from "./pages/MyProjects";
 
 
