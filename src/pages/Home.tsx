@@ -1,5 +1,5 @@
 import Navbar from "../components/Nav";
-import Accordion from "../components/accordion";
+// import Accordion from "../components/accordion";
 import { TypeAnimation } from "react-type-animation";
 import ContactMe from "../components/Contact";
 import MyProjects from "../components/MyProjects";
