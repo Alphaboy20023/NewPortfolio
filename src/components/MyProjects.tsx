@@ -2,7 +2,6 @@ import { useState } from "react";
 import { projects } from "../Projects"; // ✅ Your data
 import ProjectModal from "./modal";
 
-// Define types
 interface Project {
   title: string;
   role: string;
@@ -66,7 +65,7 @@ const Projects = () => {
 
       {/* Expanded list (dropdown style) */}
       {allOpen && (
-        <div className="mt-8 flex flex-col md:flex-row md:flex-wrap gap-6 justify-center">
+        <div className="mt-8 flex flex-col md:flex-row md:flex-wrap gap-6 justify-center p-4 lg:p-0">
           {projects.slice(3).map((project: Project, i: number) => (
             <div
               key={i}
