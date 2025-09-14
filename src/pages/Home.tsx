@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <section id="home">
+      <section id="home" className="pb-9">
         <div
           className=" bg-cover bg-center flex flex-col-reverse lg:flex-row items-center justify-center gap-6 pt-28 "
         >

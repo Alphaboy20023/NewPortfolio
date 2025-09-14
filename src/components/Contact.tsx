@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Navbar from "../components/Nav";
 
 
 const ContactMe = () => {
@@ -26,7 +25,7 @@ const ContactMe = () => {
 
             const data = await res.json();
             if (res.ok) {
-                setSuccess("Message sent successfully!");
+                setSuccess("Thanks for Reaching out, I'll Get back in 24 hours!");
                 setForm({ name: "", email: "", message: "" });
                 
                  setTimeout(() => setSuccess(null), 5000);
@@ -45,7 +44,6 @@ const ContactMe = () => {
 
     return (
         <>
-            <Navbar />
             <div className="pt-[90px]">
                 <p>
                     {success && (

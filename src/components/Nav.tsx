@@ -62,7 +62,7 @@ const Navbar = () => {
             backgroundImage: "url('/Img/Rectangle 12.png')",
             backgroundPosition: "top left",
             backgroundSize: "cover",
-            backdropFilter: "blur(10px) brightness(1.2)",
+            backdropFilter: "blur(18px) brightness(1.2)",
           }
           : { background: "transparent" }
       }
