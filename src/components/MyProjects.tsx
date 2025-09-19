@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { projects } from "../Projects"; // ✅ Your data
+import { projects } from "../Project/Projects"; // ✅ Your data
 import ProjectModal from "./modal";
 
 interface Project {
@@ -19,13 +19,14 @@ const Projects = () => {
   const [allOpen, setAllOpen] = useState(false);
 
   return (
-    <section className="mt-12">
+    <section className="pt-12 pb-5">
+      <div className="pt-5"></div>
       {/* Projects preview */}
       <div className="flex flex-col md:flex-row md:flex-wrap gap-6 justify-center max-w-full p-4 lg:p-0">
         {projects.slice(0, 3).map((project: Project, i: number) => (
           <div
             key={i}
-            className="bg-white rounded-lg overflow-hidden flex flex-col md:w-[calc(33%-1rem)] lg:w-[calc(28%-1rem)] border border-2"
+            className="rounded-lg overflow-hidden flex flex-col md:w-[calc(33%-1rem)] lg:w-[calc(28%-1rem)] border border-2"
           >
             <img
               src={project.image}

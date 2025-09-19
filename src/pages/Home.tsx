@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import ContactMe from "../components/Contact";
 import MyProjects from "../components/MyProjects";
 import About from "../components/about";
+import MySkills from "../components/MySkills";
 
 const Portfolio = () => {
   return (
@@ -84,21 +85,17 @@ const Portfolio = () => {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
-          </div>
 
-          {/* Image */}
-          {/* <div className="flex-1 pt-[70px] lg:pt-12 flex justify-center items-center max-w-md sm:max-w-sm lg:max-w-lg">
-          <img
-            src="/img/portfolio_image.png"
-            alt="my_picture"
-            className="rounded-xl w-full h-auto shadow-lg"
-          />
-        </div> */}
+            <div className="border border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white p-2 rounded-lg w-40 text-center cursor-pointer">
+              <a href="/documents/Akinola_Victor_CV.docx"> Get My Resume </a>
+            </div>
+
+          </div>
         </div>
       </section>
       <section id="about"><About /></section>
       <section id="projects"><MyProjects /></section>
-
+      <section id="skills"> <MySkills /> </section>
       {/* contact /> */}
       <section id="contact"><ContactMe /></section>
 

@@ -1,6 +1,7 @@
 const About = () => {
     return (
-        <section className="px-6 py-12 mt-5 border-t-2 border-b-2 border-blue-200">
+        <section className="mt-5">
+            <div className="border-t-2 border-b-1 max-w-6xl mb-7 ml-auto mr-auto border-blue-300 "></div>
             {/* Heading */}
             <div className="flex flex-col items-center">
                 <h1 className="text-3xl md:text-4xl font-semibold text-center">
@@ -59,6 +60,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <div className="border-t-2 border-b-1 max-w-6xl mt-7 ml-auto mr-auto border-blue-300 "></div>
         </section>
     );
 };

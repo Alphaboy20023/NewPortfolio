@@ -44,7 +44,7 @@ const ContactMe = () => {
 
     return (
         <>
-            <div className="pt-[90px]">
+            <div className="pt-8">
                 <p>
                     {success && (
                         <p className="text-md text-green-600 font-semibold text-right px-3">{success}</p>
