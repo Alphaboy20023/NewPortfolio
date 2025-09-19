@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Skills } from "../Project/skills"
 
 interface Skill {
@@ -7,7 +6,6 @@ interface Skill {
 }
 
 const MySkills = () => {
-    const [selectedSkill] = useState<Skill | null>(null);
 
     return (
         <section className="p-5 bg-gray-100 pt-8">
