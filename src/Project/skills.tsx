@@ -84,5 +84,10 @@ export const Skills = [
     title: "Netlify",
     image: "/Img/netlify.png",
   },
+  // {
+  //   id: "18",
+  //   title: "ChatGpt",
+  //   image: "/Img/chatlogo.png",
+  // },
 
 ]

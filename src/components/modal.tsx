@@ -36,7 +36,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
         <div className="grid md:grid-cols-2 gap-4">
           <img src={project.image} alt={project.title} className="rounded-lg" />
           <div className="flex flex-col justify-between">
-            <p className="text-gray-700 mb-4 text-sm font-semibold">
+            <p className="text-gray-500 mb-4 text-sm font-medium">
               {project.modalDescription.split("\n").map((line, i) => (
                 <span key={i}>
                   {line}

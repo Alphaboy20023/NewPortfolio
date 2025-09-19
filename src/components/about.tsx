@@ -18,23 +18,19 @@ const About = () => {
                 <div className=" text-base md:text-lg lg:w-1/2 text-gray-900 space-y-4 text-center lg:text-left">
 
                     <p>
-                        I'm a passionate Software Developer with a knack for crafting
-                        innovative, user-friendly applications and solving all the problems
-                        that pop up along the development journey. I'm fluent in JavaScript
-                        and Python.
+                        I'm a passionate Software Developer who loves building user-friendly apps
+                        and solving challenges along the way. I'm fluent in JavaScript and Python,
+                        with a stronger focus on Python.
                     </p>
                     <p>
-                        I'm a passionate Software Developer with a knack for crafting
-                        innovative, user-friendly applications and solving all the problems
-                        that pop up along the development journey. I'm fluent in JavaScript
-                        and Python.
+                        I'm currently studying Mathematics at the Lagos State University. I bring analytical
+                        thinking into my development process.
                     </p>
                     <p>
-                        I'm a passionate Software Developer with a knack for crafting
-                        innovative, user-friendly applications and solving all the problems
-                        that pop up along the development journey. I'm fluent in JavaScript
-                        and Python.
+                        Outside coding, you'd find me exploring AI tools to ship faster, contribute to open-source
+                        projects, and keep expanding my knowledge.
                     </p>
+
 
                     <div className="flex space-x-3">
                         <p className="border-blue-600 border rounded-md p-2 text-lg font-medium text-blue-700">10+ Projects </p>

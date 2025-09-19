@@ -39,7 +39,7 @@ const Projects = () => {
               <p className="text-sm text-gray-500">
                 {project.role} • {project.year}
               </p>
-              <p className="text-gray-600 text-[15px] flex-1">{project.description}</p>
+              <p className="text-gray-600 text-sm flex-1">{project.description}</p>
 
               <div className="mt-auto">
                 <div className="flex flex-wrap gap-2 mb-4 text-[#6070FF]">
