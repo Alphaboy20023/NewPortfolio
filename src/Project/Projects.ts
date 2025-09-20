@@ -26,19 +26,19 @@ export const projects = [
     liveLink: "https://taskly-app-five.vercel.app/home",
     sourceLink: "https://github.com/Alphaboy20023/NewPortfolio",
   },
-  {
-    id: "3",
-    title: "Kleistic",
-    year: "2025",
-    role: "Full-Stack Web Developer",
-    description:
-      "Kleistic is a dynamic modern e-commerce web application built with React, Tailwind, and Python (Django + DRF). Users can browse products, manage a cart, and make secure payments via the Paystack API. Product images are handled with Cloudinary, ensuring a smooth shopping experience.",
-    modalDescription: "Kleistic is a full-featured e-commerce platform that combines a responsive frontend with a robust backend. Built with React for the interface, Redux for state management, Tailwind CSS for styling, and Python Django + DRF for backend APIs, the app allows users to browse products, filter by categories, manage a cart, and complete secure payments through the Paystack API. Product images are stored and served via Cloudinary, and the application demonstrates seamless integration between frontend and backend, efficient state handling, and a smooth, user-friendly shopping experience.",
-    tech: ["React", "Redux", "Tailwind CSS", "python", "Django RestFrameWork", "Firebase Auth", "Postgres DB", "Paystack API", "Cloudinary", "Netlify", "Render"],
-    image: "./Img/Kleistic.png",
-    liveLink: "https://klestic.netlify.app/",
-    sourceLink: "https://github.com/Alphaboy20023/Kleistic",
-  },
+  // {
+  //   id: "3",
+  //   title: "Kleistic",
+  //   year: "2025",
+  //   role: "Full-Stack Web Developer",
+  //   description:
+  //     "Kleistic is a dynamic modern e-commerce web application built with React, Tailwind, and Python (Django + DRF). Users can browse products, manage a cart, and make secure payments via the Paystack API. Product images are handled with Cloudinary, ensuring a smooth shopping experience.",
+  //   modalDescription: "Kleistic is a full-featured e-commerce platform that combines a responsive frontend with a robust backend. Built with React for the interface, Redux for state management, Tailwind CSS for styling, and Python Django + DRF for backend APIs, the app allows users to browse products, filter by categories, manage a cart, and complete secure payments through the Paystack API. Product images are stored and served via Cloudinary, and the application demonstrates seamless integration between frontend and backend, efficient state handling, and a smooth, user-friendly shopping experience.",
+  //   tech: ["React", "Redux", "Tailwind CSS", "python", "Django RestFrameWork", "Firebase Auth", "Postgres DB", "Paystack API", "Cloudinary", "Netlify", "Render"],
+  //   image: "./Img/Kleistic.png",
+  //   liveLink: "https://klestic.netlify.app/",
+  //   sourceLink: "https://github.com/Alphaboy20023/Kleistic",
+  // },
   {
     id: "4",
     title: "School Inventory Management",
