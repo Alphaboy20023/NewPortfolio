@@ -1,5 +1,6 @@
 // data/projects.ts
 export const projects = [
+  
   {
     id: "1",
     title: "360 Agency",
@@ -41,6 +42,20 @@ export const projects = [
   // },
   {
     id: "4",
+    title: "AI ChatBot",
+    year: "2025",
+    role: "Fullstack developer",
+    description:
+      "A real-time chatbot built with Django (JWT & REST API), Django Channels (WebSocket), and Next.js with Tailwind CSS for a secure and responsive experience. ",
+    modalDescription:
+     "A real-time chatbot application built with Django (JWT authentication & REST API) and Django Channels for WebSocket communication. The frontend is developed with Next.js and styled with Tailwind CSS, enabling live conversations, secure user login, and responsive UI.",
+    tech: ["Python", "JavaScript", "TypeScript", "NextJs","Django RestFrameWork", "RestAPI", "SQlite3", "Tailwind CSS", "Django Channels Web Socket"],
+    image: "./Img/Chatbot.png",
+    liveLink: "",
+    sourceLink: "https://github.com/Alphaboy20023/",
+  },
+  {
+    id: "5",
     title: "School Inventory Management",
     year: "2025",
     role: "Backend developer ",
@@ -53,7 +68,7 @@ export const projects = [
     sourceLink: "https://github.com/Alphaboy20023/School_app",
   },
   {
-    id: "5",
+    id: "6",
     title: "GetChange",
     year: "2024",
     role: "React Redux Developer",
@@ -66,7 +81,7 @@ export const projects = [
     sourceLink: "https://github.com/Alphaboy20023/Api-mainTask",
   },
   {
-    id: "6",
+    id: "7",
     title: "ChopDeck",
     year: "2025",
     role: "Full-Stack Web developer ",
