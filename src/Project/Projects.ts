@@ -51,7 +51,7 @@ export const projects = [
      "A real-time chatbot application built with Django (JWT authentication & REST API) and Django Channels for WebSocket communication. The frontend is developed with Next.js and styled with Tailwind CSS, enabling live conversations, secure user login, and responsive UI.",
     tech: ["Python", "JavaScript", "TypeScript", "NextJs","Django RestFrameWork", "RestAPI", "SQlite3", "Tailwind CSS", "Django Channels Web Socket"],
     image: "./Img/Chatbot.png",
-    liveLink: "",
+    liveLink: "https://ai-chat-bot-frontend-xi.vercel.app/",
     sourceLink: "https://github.com/Alphaboy20023/",
   },
   {
