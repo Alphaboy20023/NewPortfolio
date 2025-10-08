@@ -17,7 +17,9 @@ const ContactMe = () => {
         setSuccess(null);
 
         try {
-            const res = await fetch("https://email-sender-j0c5.onrender.com/api/send-email", {
+            // "https://email-sender-j0c5.onrender.com"
+            const Api = "https://email-sender-kappa-blue.vercel.app/"
+            const res = await fetch(`${Api}api/send-email`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(form),

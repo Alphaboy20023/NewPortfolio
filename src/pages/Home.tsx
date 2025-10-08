@@ -5,12 +5,13 @@ import ContactMe from "../components/Contact";
 import MyProjects from "../components/MyProjects";
 import About from "../components/about";
 import MySkills from "../components/MySkills";
+import SkillsPreview from "../components/skillsPreview";
 
 const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <section id="home" className="pb-9">
+      <section id="home" className="pb-9 px-2">
         <div
           className=" bg-cover bg-center flex flex-col-reverse lg:flex-row items-center justify-center gap-6 pt-28 "
         >
@@ -86,8 +87,10 @@ const Portfolio = () => {
               </a>
             </div>
 
-            <div className="border border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white p-2 rounded-lg w-40 text-center cursor-pointer">
-              <a href="/documents/Akinola_Victor_CV.docx"> Get My Resume </a>
+            <div className="flex justify-center">
+              <div className="border border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white p-2 rounded-lg w-40 text-center cursor-pointer">
+                <a href="/documents/Akinola_Victor_CV.docx"> Get My Resume </a>
+              </div>
             </div>
 
           </div>
@@ -96,6 +99,7 @@ const Portfolio = () => {
       <section id="about"><About /></section>
       <section id="projects"><MyProjects /></section>
       <section id="skills"> <MySkills /> </section>
+      {/* <section id="skills"> <SkillsPreview /> </section> */}
       {/* contact /> */}
       <section id="contact"><ContactMe /></section>
 
