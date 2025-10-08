@@ -93,6 +93,19 @@ export const projects = [
     liveLink: "https://chopdeck-9afj.onrender.com/",
     sourceLink: "https://github.com/Alphaboy20023/ChopDeck",
   },
+  {
+    id: "8",
+    title: "Banking CLI",
+    year: "2025",
+    role: "Backend developer ",
+    description:
+      "",
+    modalDescription:"",
+    tech: ["Java", "Spring Boot"],
+    image: "./Img/BankCLI.png",
+    liveLink: "",
+    sourceLink: "https://github.com/Alphaboy20023/Bank-CLI-Application",
+  },
 
 
 ];
