@@ -5,7 +5,7 @@ import ContactMe from "../components/Contact";
 import MyProjects from "../components/MyProjects";
 import About from "../components/about";
 import MySkills from "../components/MySkills";
-import SkillsPreview from "../components/skillsPreview";
+// import SkillsPreview from "../components/skillsPreview";
 
 const Portfolio = () => {
   return (
