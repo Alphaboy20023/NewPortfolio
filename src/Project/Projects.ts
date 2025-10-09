@@ -99,8 +99,8 @@ export const projects = [
     year: "2025",
     role: "Backend developer ",
     description:
-      "",
-    modalDescription:"",
+      "A simple yet powerful Command Line Interface (CLI) banking system built with Java. This project allows users to create accounts, log in, deposit, withdraw, check balance, and view transaction history, all directly from the terminal.",
+    modalDescription:"A simple yet powerful Command Line Interface (CLI) banking system built with Java. This project allows users to create accounts, log in, deposit, withdraw, check balance, and view transaction history, all directly from the terminal.",
     tech: ["Java", "Spring Boot"],
     image: "./Img/BankCLI.png",
     liveLink: "",
