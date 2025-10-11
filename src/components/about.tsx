@@ -19,8 +19,8 @@ const About = () => {
 
                     <p>
                         I'm a passionate Software Developer who loves building user-friendly apps
-                        and solving challenges along the way. I'm fluent in JavaScript and Python,
-                        with a stronger focus on Python.
+                        and solving challenges along the way. I'm fluent in JavaScript, Java and Python,
+                        with a stronger focus on Python and Java.
                     </p>
                     <p>
                         I'm currently studying Mathematics at the Lagos State University. I bring analytical
