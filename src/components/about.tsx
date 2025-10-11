@@ -18,17 +18,13 @@ const About = () => {
                 <div className=" text-base md:text-lg lg:w-1/2 text-gray-900 space-y-4 text-center lg:text-left">
 
                     <p>
-                        I'm a passionate Software Developer who loves building user-friendly apps
-                        and solving challenges along the way. I'm fluent in JavaScript, Java and Python,
-                        with a stronger focus on Python and Java.
+                        I’m a dedicated Software Developer with a strong passion for creating intuitive, user-centric applications and tackling complex challenges along the way. I’m proficient in JavaScript, Java, and Python, with a particular focus on the latter two.
                     </p>
                     <p>
-                        I'm currently studying Mathematics at the Lagos State University. I bring analytical
-                        thinking into my development process.
+                        I’m currently pursuing a degree in Mathematics at Lagos State University, where I’ve developed a strong analytical mindset that deeply informs my approach to software development and problem-solving.
                     </p>
                     <p>
-                        Outside coding, you'd find me exploring AI tools to ship faster, contribute to open-source
-                        projects, and keep expanding my knowledge.
+                        Beyond coding, I enjoy exploring AI tools to enhance productivity, contributing to open-source projects, and continuously expanding my technical and creative horizons.
                     </p>
 
 
