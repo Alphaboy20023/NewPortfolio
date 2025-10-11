@@ -32,7 +32,7 @@ const Portfolio = () => {
             <p className="text-[#344563] text-base sm:text-lg font-medium leading-relaxed">
               I'm a passionate Software Developer with a knack for crafting
               innovative, user-friendly applications and solving all the problems
-              that pop up along the development journey. I'm fluent in JavaScript
+              that pop up along the development journey. I'm fluent in JavaScript, Java
               and Python.
               <br />
               <span className="inline-block mt-2">
