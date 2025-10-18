@@ -1,13 +1,17 @@
 import Navbar from "../components/Nav";
 // import Accordion from "../components/accordion";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 import ContactMe from "../components/Contact";
 import MyProjects from "../components/MyProjects";
 import About from "../components/about";
 import MySkills from "../components/MySkills";
+import HeroText from "../components/HeroText";
 // import SkillsPreview from "../components/skillsPreview";
 
+
 const Portfolio = () => {
+  
+
   return (
     <>
       <Navbar />
@@ -17,18 +21,7 @@ const Portfolio = () => {
         >
 
           <div className="flex-1 flex flex-col justify-center space-y-5 max-w-2xl text-center lg:text-left">
-            <TypeAnimation
-              sequence={[
-                'I Am Akinola Victor',
-                2000,
-                'I Am Glad to Meet You',
-                2000,
-              ]}
-              wrapper="p"
-              speed={50}
-              repeat={Infinity}
-              className="font-semibold text-3xl home-logo lg:text-4xl"
-            />
+            <HeroText />
             <p className="text-[#344563] text-base sm:text-lg font-medium leading-relaxed">
               I'm a passionate Software Developer with a knack for crafting
               innovative, user-friendly applications and solving all the problems
