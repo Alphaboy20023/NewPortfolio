@@ -84,6 +84,7 @@ const Portfolio = () => {
               <div className="border border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white p-2 rounded-lg w-40 text-center cursor-pointer">
                 <a href="/documents/Akinola_Victor_CV.pdf"> Get My Resume </a>
                 {/* okay */}
+                {/* cd to frontend to bknd */}
               </div>
             </div>
 
