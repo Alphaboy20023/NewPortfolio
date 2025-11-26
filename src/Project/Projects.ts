@@ -114,7 +114,7 @@ export const projects = [
     description:
       "BankingAPI is a robust and scalable backend application designed to simulate the core functionalities of a modern banking system",
     modalDescription:"BankingAPI demonstrates the application of RESTful API principles, JWT-based authentication, and data integrity enforcement through validation and structured domain models",
-    tech: ["Java", "Spring Boot"],
+    tech: ["Java", "Spring Boot", "RESTful API", "Hibernate",],
     image: "./Img/BankCLI.png",
     liveLink: "",
     sourceLink: "https://github.com/Alphaboy20023/Banking-Api",
