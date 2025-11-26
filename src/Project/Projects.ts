@@ -106,6 +106,19 @@ export const projects = [
     liveLink: "",
     sourceLink: "https://github.com/Alphaboy20023/Bank-CLI-Application",
   },
+  {
+    id: "9",
+    title: "BankingApi",
+    year: "2025",
+    role: "Backend developer",
+    description:
+      "BankingAPI is a robust and scalable backend application designed to simulate the core functionalities of a modern banking system",
+    modalDescription:"BankingAPI demonstrates the application of RESTful API principles, JWT-based authentication, and data integrity enforcement through validation and structured domain models",
+    tech: ["Java", "Spring Boot"],
+    image: "./Img/BankCLI.png",
+    liveLink: "",
+    sourceLink: "https://github.com/Alphaboy20023/Banking-Api",
+  },
 
 
 ];
