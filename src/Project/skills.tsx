@@ -112,6 +112,30 @@ export const Skills = [
     title:"Spring Boot",
     image:"/Img/spring.jpeg",
     category:"Framework"
-  }
+  },
+  {
+    id:"20",
+    title:"Mongo Db",
+    image:"/Img/mongo.png",
+    category:"Tool"
+  },
+  {
+    id:"21",
+    title:"Express",
+    image:"/Img/express.webp",
+    category:"Tool"
+  },
+  {
+    id:"22",
+    title:"Java Hibernate",
+    image:"/Img/Java_Hibernate.webp",
+    category:"Tool"
+  },
+  {
+    id:"23",
+    title:"Render",
+    image:"/Img/render.jpeg",
+    category:"Tool"
+  },
 
 ]
