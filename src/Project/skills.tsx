@@ -137,5 +137,11 @@ export const Skills = [
     image:"/Img/render.jpeg",
     category:"Tool"
   },
+  {
+    id:"24",
+    title:"Twilo",
+    image:"/Img/twilo.png",
+    category:"Tool"
+  },
 
 ]
