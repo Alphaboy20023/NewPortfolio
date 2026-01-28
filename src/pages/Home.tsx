@@ -10,7 +10,7 @@ import HeroText from "../components/HeroText";
 
 
 const Portfolio = () => {
-  
+
 
   return (
     <>
@@ -21,12 +21,15 @@ const Portfolio = () => {
         >
 
           <div className="flex-1 flex flex-col justify-center space-y-5 max-w-2xl text-center lg:text-left">
+            <h1 className="sr-only">
+              Software Engineer in LASU – Victor Akinola
+            </h1>
             <HeroText />
             <p className="text-[#344563] text-base sm:text-lg font-medium leading-relaxed">
-              I'm a passionate Software Developer with a knack for crafting
-              innovative, user-friendly applications and solving all the problems
-              that pop up along the development journey. I'm fluent in JavaScript, Java
-              and Python.
+              I am a <strong>software engineer in Lagos State University (LASU)</strong> with a passion for building
+              scalable, user-friendly applications and solving real-world problems.
+              I work with JavaScript, Java, and Python.
+
               <br />
               <span className="inline-block mt-2">
                 Let's connect — I'd love to explore how we can build something
